@@ -42,7 +42,7 @@ if exists:
                     hits += 1
                     ctypes.windll.kernel32.SetConsoleTitleW('Pizzahut CA Checker | Hits: ' + str(hits) + ' | Invalid: ' + str(dead))
                 else:
-                    print('[BAD]' + username + ':' + password)
+                    print('[Invalid]' + username + ':' + password)
                     dead += 1
                     ctypes.windll.kernel32.SetConsoleTitleW('Pizzahut CA Checker | Hits: ' + str(hits) + ' | Invalid: ' + str(dead))
                 linenum += 1
